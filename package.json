@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ireade/netlify-puppeteer-screenshot-demo.git"
@@ -14,5 +13,12 @@
   "bugs": {
     "url": "https://github.com/ireade/netlify-puppeteer-screenshot-demo/issues"
   },
-  "homepage": "https://netlify-puppeteer-screenshot-demo.netlify.app/"
+  "homepage": "https://netlify-puppeteer-screenshot-demo.netlify.app/",
+  "dependencies": {
+    "@sparticuz/chromium": "^110.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "puppeteer-core": "^19.8.1",
+    "serverless-http": "^3.2.0"
+  }
 }
